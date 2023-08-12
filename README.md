@@ -5,19 +5,17 @@
 
 ## Create an interactive LED pixel screen using an Arduino UNO board and a 16x16 LED matrix. Display various pixel patterns, animations, and designs on the matrix to explore programming, electronics, and creative expression.
 
-[Requirements](README.md#Requirements) | [Setup](README.md#setup) | [Pixel Patterns](README.md#pixel-patterns) | [Code Explanation](README.md#code-explanation) | [Troubleshooting](README.md#troubleshooting) | [Future Enhancements](README.md#future-enhancements) | [Resources](README.md#resources) | [Credits](README.md#credits)
+[Setup](README.md#setup) | [Pixel Patterns](README.md#pixel-patterns) | [Code Explanation](README.md#code-explanation) | [Troubleshooting](README.md#troubleshooting) | [Future Enhancements](README.md#future-enhancements) | [Resources](README.md#resources) | [Credits](README.md#credits)
 </div>
-
-## Requirements
-- 1 Arduino Uno
-- 1 WS2812 16x16 LED Pixel Display Screen
-- 1 5V Power supply (3A or higher)
-- Jumper wire
 
 ## Setup
 ### Hardware Setup
 - **Wiring Diagram**: Detailed instructions on connecting components.
 - **Components List**: Visual reference of required parts.
+    - 1 Arduino Uno
+    - 1 WS2812 16x16 LED Pixel Display Screen
+    - 1 5V Power supply (3A or higher)
+    - Jumper wire
 
 ### Library Installation
 This project makes use of the [FastLED](https://github.com/FastLED/FastLED) library, which should be installed on your system. Following successful installation, you can then proceed with the subsequent steps:
@@ -28,10 +26,6 @@ This project makes use of the [FastLED](https://github.com/FastLED/FastLED) libr
 
 ## Pixel Patterns
 Unleash your creativity by creating captivating pixel patterns and animations.
-
-- **Creating Static Patterns**: Craft visually appealing static pixel art.
-- **Dynamic Animations**: Learn to generate animations that mesmerize.
-- **Exploring Colors**: Implement color variations for stunning effects.
 
 ## Code Explanation
 Understand the inner workings of your project's code.
