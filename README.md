@@ -1,6 +1,8 @@
 <div align="center">
     <img src="https://github.com/jc2003-2003/DIY-LED-Light-Pixel-Screen-Project-with-Arduino-UNO/assets/116894695/13963e2c-e92f-4905-9b19-fd9dbec430e3" alt="LED banner done">
   
+![screenshot1](https://github.com/jc2003-2003/DIY-LED-Light-Pixel-Screen-Project-with-Arduino-UNO/blob/b717bb86890d8e15c4329258d67b423ad19142bb/LED%20Light%20Pixel%20Screen%20Project%20Banner.png)
+  
 # DIY LED Light Pixel Screen Project with Arduino UNO
 
 ## Create an interactive LED pixel screen using an Arduino UNO board and a 16x16 LED matrix. Display various pixel patterns, animations, and designs on the matrix to explore programming, electronics, and creative expression.
