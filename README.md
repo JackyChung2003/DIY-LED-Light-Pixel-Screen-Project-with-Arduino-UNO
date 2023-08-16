@@ -20,10 +20,22 @@
 
 ### Library Installation
 This project makes use of the [FastLED](https://github.com/FastLED/FastLED) library, which should be installed on your system. Following successful installation, you can then proceed with the subsequent steps:
-
 1. Click on the "Code" menu when viewing the source on GitHub.
 2. Select "Download ZIP."
 3. Extract the downloaded archive into your Arduino/libraries directory.
+
+### Excel Tutorial for Pixel Art Animation
+We will be using the Excel to draw every single frame and update every single frame manually.
+#### Step 1: Preparing colour code
+   ##### Note that some colours cannot be displayed accurately as the HTML colour, different brightness will lead to different colour
+1. Use HTML colour codes (e.g., #FF0000 for red) and prefix them with 0x (e.g., 0xFF0000) for Arduino compatibility.
+2. Put it in the colour section of the Excel sheet for further purpose
+#### Step 2: Design Animation Frames
+1. In the Name and Index columns, assign a unique name to each animation frame array (e.g., Cat1, Cat2, etc.)
+2. Draw the desired animation frame by copying and pasting the colour codes for each pixel from the Colour column to create the animation frames.
+3. Copy the Arduino code of the array from the output column, and paste it into the Arduino code correctly
+#### Step 3: Integration
+1. In the `loop()` function, use the `display()` function to show each animation frame. Adjust the timing to control how long each frame is displayed.
 
 ## Code Explanation
 
@@ -79,27 +91,19 @@ The indexing of the 16x16 pixel display begins at the bottom-left corner, procee
 ![index gif](https://github.com/jc2003-2003/DIY-LED-Light-Pixel-Screen-Project-with-Arduino-UNO/blob/e347efadc4374e69826a504cd54a358f6a08cd49/16x16%20LED%20light%20index%20position.gif)
 
 ## Troubleshooting
-- **Common Issues**
-    1. **LEDs Not Lighting Up**: Ensure the **LED data pin** is correctly connected to the designated pin on the Arduino. You can verify the power supply and polarity of the LEDs.
-    2. **Incorrect Animation Display**: Check the array initialization and sequence of frames in your code. Ensure that the correct arrays are being called for the desired animations.
-    3. **Flickering LEDs**: Adjust the brightness level in the FastLED.setBrightness() function to prevent overloading the LEDs. Verify your power supply's stability and capacity.(In my case, I set the brightness to 10 since I didnt connect to external power supply, if the bringness is set to 100, maximum current  could be around 256 * 60 mA = 15.36 A.)
+  1. **LEDs Not Lighting Up**: Ensure the **LED data pin** is correctly connected to the designated pin on the Arduino. You can verify the power supply and polarity of the LEDs.
+  2. **Incorrect Animation Display**: Check the array initialization and sequence of frames in your code. Ensure that the correct arrays are being called for the desired animations.
+  3. **Flickering LEDs**: Adjust the brightness level in the FastLED.setBrightness() function to prevent overloading the LEDs. Verify your power supply's stability and capacity.(In my case, I set the brightness to 10 since I didnt connect to external power supply, if the bringness is set to 100, maximum current  could be around 256 * 60 mA = 15.36 A.)
 
 ## Future Enhancements
+- Sound Reactive Display: Integrate a microphone and sound processing to create a display that reacts to ambient sound or music, pulsating and changing colors in response to audio cues or can call as Music Reactive Mode.
+- Wireless Control: Maybe using some Arduino board with Wifi or adding an ESP8266 module, enabling Wi-Fi control. With Wi-Fi capabilities, you can control animations, colors, and patterns remotely through a web interface or a dedicated mobile app.
+- Custom Animation Editor: Develop a software tool that allows users to create their own pixel art animations and upload them to the display. This would enhance user engagement and creativity, and can boost up a lot of time to manually combine the code.
+- Time and Date Display: Create animations that display the current time and date in a creative way. This feature could serve as a functional and visually appealing clock.
+- Interactive Games: Develop simple interactive games that users can play directly on the LED display using some button. This could include games like Pong, Snake, or memory puzzles.
 
-- **Ideas for Expansion**: Brainstormed concepts to take your project further.
-- **Wireless Control**: Discuss adding Bluetooth or Wi-Fi control.
-
-## Resources
-Access valuable resources to support your project development.
-
-- **Datasheets**: Links to relevant component datasheets.
-- **Arduino Tutorials**: Helpful guides for programming with Arduino.
-
-## Credits
-Acknowledge the tools and inspirations that contributed to your success.
-
-- **Library Acknowledgment**: Credit to third-party libraries.
-- **Inspirational Projects**: Recognition of inspiring works.
+### Reference Video: Adding Wi-Fi Control to the LED Pixel Display by **Brainy-Bits**
+[![Arduino 16x16 WS2812B RGB Matrix Animation Picture Frame - Tutoriall](https://i.ytimg.com/vi/jkg7T7jlIzU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeWzgFPsnMxmtePLqaNZpjS8a1Cg)](https://www.youtube.com/watch?v=jkg7T7jlIzU&t=391s)
 
 ## Pixel Patterns
 Unleash your creativity by creating captivating pixel patterns and animations.
