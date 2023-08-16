@@ -7,6 +7,13 @@
 ## Create an interactive LED pixel screen using an Arduino UNO board and a 16x16 LED matrix. Display various pixel patterns, animations, and designs on the matrix to explore programming, electronics, and creative expression.
 
 [Setup](README.md#setup) | [Pixel Patterns](README.md#pixel-patterns) | [Code Explanation](README.md#code-explanation) | [Troubleshooting](README.md#troubleshooting) | [Future Enhancements](README.md#future-enhancements) | [Resources](README.md#resources) | [Credits](README.md#credits)
+<p align="center">
+  <a href="#Setup">Setup</a> •
+  <a href="#code-explanation">Code Explanation</a> •
+  <a href="#troubleshooting">Troubleshooting</a> •
+  <a href="#future-enhancements">Future Enhancements</a> •
+  <a href="#reference-video">Reference Video</a> •
+</p>
 </div>
 
 ## Setup
@@ -102,7 +109,8 @@ The indexing of the 16x16 pixel display begins at the bottom-left corner, procee
 - Time and Date Display: Create animations that display the current time and date in a creative way. This feature could serve as a functional and visually appealing clock.
 - Interactive Games: Develop simple interactive games that users can play directly on the LED display using some button. This could include games like Pong, Snake, or memory puzzles.
 
-### Reference Video: Adding Wi-Fi Control to the LED Pixel Display by **Brainy-Bits**
+## Reference Video
+### Adding Wi-Fi Control to the LED Pixel Display by **Brainy-Bits**
 [![Arduino 16x16 WS2812B RGB Matrix Animation Picture Frame - Tutoriall](https://i.ytimg.com/vi/jkg7T7jlIzU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeWzgFPsnMxmtePLqaNZpjS8a1Cg)](https://www.youtube.com/watch?v=jkg7T7jlIzU&t=391s)
 
 ## Pixel Patterns
