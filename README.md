@@ -102,11 +102,11 @@ The indexing of the 16x16 pixel display begins at the bottom-left corner, procee
   3. **Flickering LEDs**: Adjust the brightness level in the FastLED.setBrightness() function to prevent overloading the LEDs. Verify your power supply's stability and capacity.(In my case, I set the brightness to 10 since I didnt connect to external power supply, if the bringness is set to 100, maximum current  could be around 256 * 60 mA = 15.36 A.)
 
 ## Future Enhancements
-- Sound Reactive Display: Integrate a microphone and sound processing to create a display that reacts to ambient sound or music, pulsating and changing colors in response to audio cues or can call as Music Reactive Mode.
-- Wireless Control: Maybe using some Arduino board with Wifi or adding an ESP8266 module, enabling Wi-Fi control. With Wi-Fi capabilities, you can control animations, colors, and patterns remotely through a web interface or a dedicated mobile app.
-- Custom Animation Editor: Develop a software tool that allows users to create their own pixel art animations and upload them to the display. This would enhance user engagement and creativity, and can boost up a lot of time to manually combine the code.
-- Time and Date Display: Create animations that display the current time and date in a creative way. This feature could serve as a functional and visually appealing clock.
-- Interactive Games: Develop simple interactive games that users can play directly on the LED display using some button. This could include games like Pong, Snake, or memory puzzles.
+- **Sound Reactive Display**: Integrate a microphone and sound processing to create a display that reacts to ambient sound or music, pulsating and changing colors in response to audio cues or can call as Music Reactive Mode.
+- **Wireless Control**: Maybe using some Arduino board with Wifi or adding an ESP8266 module, enabling Wi-Fi control. With Wi-Fi capabilities, you can control animations, colors, and patterns remotely through a web interface or a dedicated mobile app.
+- **Custom Animation Editor**: Develop a software tool that allows users to create their own pixel art animations and upload them to the display. This would enhance user engagement and creativity, and can boost up a lot of time to manually combine the code.
+- **Time and Date Display**: Create animations that display the current time and date in a creative way. This feature could serve as a functional and visually appealing clock.
+- **Interactive Games**: Develop simple interactive games that users can play directly on the LED display using some button. This could include games like Pong, Snake, or memory puzzles.
 
 ## Reference Video
 ### Adding Wi-Fi Control to the LED Pixel Display by **Brainy-Bits**
