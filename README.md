@@ -4,15 +4,14 @@
   
 # DIY LED Light Pixel Screen Project with Arduino UNO
 
-## Create an interactive LED pixel screen using an Arduino UNO board and a 16x16 LED matrix. Display various pixel patterns, animations, and designs on the matrix to explore programming, electronics, and creative expression.
+### An interactive LED pixel screen using an Arduino UNO board and a 16x16 LED matrix to display various pixel patterns, designs, and animations.
 
-[Setup](README.md#setup) | [Pixel Patterns](README.md#pixel-patterns) | [Code Explanation](README.md#code-explanation) | [Troubleshooting](README.md#troubleshooting) | [Future Enhancements](README.md#future-enhancements) | [Resources](README.md#resources) | [Credits](README.md#credits)
 <p align="center">
   <a href="#Setup">Setup</a> •
   <a href="#code-explanation">Code Explanation</a> •
   <a href="#troubleshooting">Troubleshooting</a> •
   <a href="#future-enhancements">Future Enhancements</a> •
-  <a href="#reference-video">Reference Video</a> •
+  <a href="#reference-video">Reference Video</a> 
 </p>
 </div>
 
